@@ -33,7 +33,7 @@ services:
             - POSTGRES_PASSWORD=forum
             - POSTGRES_DB=forum
         ports:
-            - "8004:5432"
+            - "5432:5432"
 
     mail:
         image: inbucket/inbucket
